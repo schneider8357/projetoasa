@@ -12,3 +12,22 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 4- EXTRA: crie uma subpasta "adm", abaixo da pasta base de cada domínio, onde somente os usuários deste domínio, mediante autenticação do APACHE, usando o banco de dados dos demais serviços (FTP e mensagens), terão acesso.
 
 *Definimos que os usuários em todos os servidores virtuais serão identificados pelo seu email, na forma: usuario@dominio.criado
+
+# Coisas Para Fazer
+0 - ~~Iniciar o Repositório~~
+1 - ~~Integração FTP e mensagens~~
+2 - Criar site
+  2.1 - Criar página principal (index.html)
+        - Link para criar usuário
+        - Link para alterar usuário
+        - Link para remover usuário
+        - Link para criar domínio
+        - Link para alterar domínio
+        - Link para remover domínio
+  2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA
+        - Formulário para criar usuário (cria_usuario.html)
+        - Formulário para alterar usuário (altera_usuario.html)
+        - Formulário para remover usuário (remove_usuario.html)
+        - Formulário para criar domínio (cria_dominio.html)
+        - Formulário para alterar domínio (altera_dominio.html)
+        - Formulário para remover domínio (remove_dominio.html)
