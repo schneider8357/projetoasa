@@ -31,3 +31,10 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
    * Formulário para criar domínio (cria_dominio.php)  
    * Formulário para alterar domínio (altera_dominio.php)  
    * Formulário para remover domínio (remove_dominio.php)  
+ * 2.3 - Configurar acesso ao banco de dados usando PHP  
+   * cria_usuario.php  
+   * altera_usuario.php  
+   * remove_usuario.php  
+   * cria_dominio.php  
+   * altera_dominio.php  
+   * remove_dominio.php  
