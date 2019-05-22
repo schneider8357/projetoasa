@@ -1,4 +1,4 @@
-# projetoasa
+## Projeto ASA
 
 # Especificação do projeto
 Neste projeto realizaremos a integração dos servidores virtuais já implementados na disciplina, acrescentando uma interface WEB em PHP para a criação de domínios virtuais e seus usuários.
@@ -17,17 +17,17 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 0 - ~~Iniciar o Repositório~~  
 1 - ~~Integração FTP e mensagens~~  
 2 - Criar site  
-  2.1 - Criar página principal (index.html)  
-        - Link para criar usuário  
-        - Link para alterar usuário  
-        - Link para remover usuário  
-        - Link para criar domínio  
-        - Link para alterar domínio  
-        - Link para remover domínio  
-  2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
-        - Formulário para criar usuário (cria_usuario.php)  
-        - Formulário para alterar usuário (altera_usuario.php)  
-        - Formulário para remover usuário (remove_usuario.php)  
-        - Formulário para criar domínio (cria_dominio.php)  
-        - Formulário para alterar domínio (altera_dominio.php)  
-        - Formulário para remover domínio (remove_dominio.php)  
+ * 2.1 - Criar página principal (index.html)  
+ *       - Link para criar usuário  
+ *       - Link para alterar usuário  
+ *       - Link para remover usuário  
+ *       - Link para criar domínio  
+ *       - Link para alterar domínio  
+ *       - Link para remover domínio  
+ * 2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
+ *       - Formulário para criar usuário (cria_usuario.php)  
+ *       - Formulário para alterar usuário (altera_usuario.php)  
+ *       - Formulário para remover usuário (remove_usuario.php)  
+ *       - Formulário para criar domínio (cria_dominio.php)  
+ *       - Formulário para alterar domínio (altera_dominio.php)  
+ *       - Formulário para remover domínio (remove_dominio.php)  
