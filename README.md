@@ -25,9 +25,9 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
         - Link para alterar domínio  
         - Link para remover domínio  
   2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
-        - Formulário para criar usuário (cria_usuario.html)  
-        - Formulário para alterar usuário (altera_usuario.html)  
-        - Formulário para remover usuário (remove_usuario.html)  
-        - Formulário para criar domínio (cria_dominio.html)  
-        - Formulário para alterar domínio (altera_dominio.html)  
-        - Formulário para remover domínio (remove_dominio.html)  
+        - Formulário para criar usuário (cria_usuario.php)  
+        - Formulário para alterar usuário (altera_usuario.php)  
+        - Formulário para remover usuário (remove_usuario.php)  
+        - Formulário para criar domínio (cria_dominio.php)  
+        - Formulário para alterar domínio (altera_dominio.php)  
+        - Formulário para remover domínio (remove_dominio.php)  
