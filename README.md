@@ -1,6 +1,6 @@
-## Projeto ASA
+# Projeto ASA
 
-# Especificação do projeto
+## Especificação do projeto
 Neste projeto realizaremos a integração dos servidores virtuais já implementados na disciplina, acrescentando uma interface WEB em PHP para a criação de domínios virtuais e seus usuários.
 
 1- Integre os bancos de dados do servidor FTP virtual e do serviço de mensagens. Faça com que consultem a mesma base de usuários e domínios;
@@ -13,7 +13,7 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 
 *Definimos que os usuários em todos os servidores virtuais serão identificados pelo seu email, na forma: usuario@dominio.criado
 
-# Coisas Para Fazer
+## Coisas Para Fazer
 0 - ~~Iniciar o Repositório~~  
 1 - ~~Integração FTP e mensagens~~  
 2 - Criar site  
