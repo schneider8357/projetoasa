@@ -4,23 +4,20 @@
 <?php
 
 function insere($valores) {
-// Formato: (ip-do-servidor,usuario,senha,banco)
-echo $valores;
+$link = mysqli_connect("localhost", "ftpdbuser","ftpdbuserpwd", "ASA");
 
-$con = new mysqli("127.0.0.1","ftpdbuser","ftpdbuserpwd","ASA");
-if ($con->connect_error)
-  return"Não foi possível conectar com o banco: " . $conn->connect_error;
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
 
-$sql=addslashes("INSERT INTO ftpusers VALUES $valores");
+if (!mysqli_query($link, "INSERT INTO ftpusers VALUES $valores")) {
+    printf("Errormessage: %s\n", mysqli_error($link));
+}
 
-if ($con->query($sql) === TRUE)
-  echo "Query OK";
-else
-  return "Erro: " . $conn->error;
-
-$con->close();
-
-
+/* close connection */
+mysqli_close($link);
 }
 ?>
 
