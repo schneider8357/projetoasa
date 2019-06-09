@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
+<<<<<<< HEAD
 <table>
 <tr>
     <th>Nome</th>
@@ -12,11 +13,14 @@
     <th>Shell</th>
     <th>E-mail</th>
 </tr>
+=======
+>>>>>>> 5997eb8fdcac0ca472a82f478719f8bf8bc0684b
 <?php
 define('ROOT_PATH', '/var/www/html/projetoasa');
 include ROOT_PATH . '/php/acesso_banco.php';
 
 $l = lista();
+<<<<<<< HEAD
 foreach ($l as $row){
     echo "<tr>\n\t";
     echo "<td>" . $row['nome'] . "</td>\n\t";
@@ -33,5 +37,15 @@ foreach ($l as $row){
 }
 ?>
 </table>
+=======
+for ($i=0;$i<count($l);$i++){
+    $row = $l[$i];
+    echo "Nome: " . $row['nome'] . " ";
+    echo "Login: " . $row['login'] . " ";
+    echo "uid: " . $row['uid'] . "<br />";
+}
+?>
+
+>>>>>>> 5997eb8fdcac0ca472a82f478719f8bf8bc0684b
 </body>
 </html>
