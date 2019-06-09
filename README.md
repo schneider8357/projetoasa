@@ -17,24 +17,24 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 0. ~~Iniciar o Repositório~~  
 1. ~~Integração FTP e mensagens~~  
 2. CRUD banco ftpusers  
- * 2.1 - ~~Criar página principal (index.html)~~  
-   * ~~Link para criar usuário~~  
-   * ~~Link para listar usuários~~  
-   * ~~Link para criar domínio~~  
-   * ~~Link para listar domínios~~  
- * 2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
-   * ~~Formulário para criar usuário (cria_usuario.html)~~  
-   * Formulário para alterar usuário (altera_usuario_form.html)  
-   * Formulário para criar domínio (cria_dominio.html)  
-   * Formulário para alterar domínio (altera_dominio_form.html)  
- * 2.3 - Configurar acesso ao banco de dados usando PHP  
-   * ~~cria_usuario.php~~  
-   * ~~altera_usuario.php~~  
-   * ~~remove_usuario.php~~  
-   * cria_dominio.php  
-   * altera_dominio.php  
-   * remove_dominio.php  
+   * 2.1 - ~~Criar página principal (index.html)~~  
+    * ~~Link para criar usuário~~  
+    * ~~Link para listar usuários~~  
+    * ~~Link para criar domínio~~  
+    * ~~Link para listar domínios~~  
+   * 2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
+    * ~~Formulário para criar usuário (cria_usuario.html)~~  
+    * Formulário para alterar usuário (altera_usuario_form.html)  
+    * Formulário para criar domínio (cria_dominio.html)  
+    * Formulário para alterar domínio (altera_dominio_form.html)  
+   * 2.3 - Configurar acesso ao banco de dados usando PHP  
+    * ~~cria_usuario.php~~  
+    * ~~altera_usuario.php~~  
+    * ~~remove_usuario.php~~  
+    * cria_dominio.php  
+    * altera_dominio.php  
+    * remove_dominio.php  
 3. Configuração bind e httpd  
 4. Extra  
- * 4.1 - Criação de subpasta adm  
- * 4.2 - Configurar httpd para consultar tabela ftpusers para Auth
+    * 4.1 - Criação de subpasta adm  
+    * 4.2 - Configurar httpd para consultar tabela ftpusers para Auth
