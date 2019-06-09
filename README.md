@@ -14,9 +14,9 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 *Definimos que os usuários em todos os servidores virtuais serão identificados pelo seu email, na forma: usuario@dominio.criado
 
 ## Coisas Para Fazer
-0 - ~~Iniciar o Repositório~~  
-1 - ~~Integração FTP e mensagens~~  
-2 - CRUD banco ftpusers  
+0. ~~Iniciar o Repositório~~  
+1. ~~Integração FTP e mensagens~~  
+2. CRUD banco ftpusers  
  * 2.1 - ~~Criar página principal (index.html)~~  
    * ~~Link para criar usuário~~  
    * ~~Link para listar usuários~~  
@@ -34,7 +34,7 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
    * cria_dominio.php  
    * altera_dominio.php  
    * remove_dominio.php  
-3 - Configuração bind e httpd  
-4 - Extra  
+3. Configuração bind e httpd  
+4. Extra  
  * 4.1 - Criação de subpasta adm  
  * 4.2 - Configurar httpd para consultar tabela ftpusers para Auth
