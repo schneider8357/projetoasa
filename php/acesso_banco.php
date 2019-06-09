@@ -1,13 +1,10 @@
-<<<<<<< HEAD
 <?php
 /** Função que recebe uma Query, conecta com o banco, executa a Query e retorna o resultado. */
-=======
 <html>
 <body>
  
 <?php
 
->>>>>>> 5997eb8fdcac0ca472a82f478719f8bf8bc0684b
 function executa($query) {
 $link = mysqli_connect("localhost", "ftpdbuser","ftpdbuserpwd", "ASA");
 
@@ -47,17 +44,14 @@ if (mysqli_num_rows($res) > 0) {
     while($row = mysqli_fetch_assoc($res)) {
         $r["nome"] = $row["nome"];
         $r["login"] = $row["login"];
-<<<<<<< HEAD
         $r["uid"] = $row["uid"];
         $r["gid"] = $row["gid"];
         $r["ativo"] = $row["ativo"];
         $r["dir"] = $row["dir"];
         $r["shell"] = $row["shell"];
         $r["email"] = $row["email"];
-=======
         $r["email"] = $row["email"];
         $r["uid"] = $row["uid"];
->>>>>>> 5997eb8fdcac0ca472a82f478719f8bf8bc0684b
         $array[$i++] = $r;
     }
 } else {
@@ -67,12 +61,9 @@ if (mysqli_num_rows($res) > 0) {
 return $array;
 }
 
-<<<<<<< HEAD
 ?>
-=======
 ?>
 
 
 </body>
 </html>
->>>>>>> 5997eb8fdcac0ca472a82f478719f8bf8bc0684b
