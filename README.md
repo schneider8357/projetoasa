@@ -17,24 +17,20 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 0 - ~~Iniciar o Repositório~~  
 1 - ~~Integração FTP e mensagens~~  
 2 - Criar site  
- * 2.1 - Criar página principal (index.html)  
-   * Link para criar usuário  
-   * Link para alterar usuário  
-   * Link para remover usuário  
-   * Link para criar domínio  
-   * Link para alterar domínio  
-   * Link para remover domínio  
+ * 2.1 - ~~Criar página principal (index.html)~~  
+   * ~~Link para criar usuário~~  
+   * ~~Link para listar usuários~~  
+   * ~~Link para criar domínio~~  
+   * ~~Link para listar domínios~~  
  * 2.2 - Criar páginas (formulários) - Campos nas tabelas 'ftpusers' e 'domains' do banco ASA  
-   * Formulário para criar usuário (cria_usuario.html)  
-   * Formulário para alterar usuário (altera_usuario.html)  
-   * Formulário para remover usuário (remove_usuario.html)  
+   * ~~Formulário para criar usuário (cria_usuario.html)~~  
+   * Formulário para alterar usuário (altera_usuario_form.html)  
    * Formulário para criar domínio (cria_dominio.html)  
-   * Formulário para alterar domínio (altera_dominio.html)  
-   * Formulário para remover domínio (remove_dominio.html)  
+   * Formulário para alterar domínio (altera_dominio_form.html)  
  * 2.3 - Configurar acesso ao banco de dados usando PHP  
    * ~~cria_usuario.php~~  
-   * altera_usuario.php  
-   * remove_usuario.php  
+   * ~~altera_usuario.php~~  
+   * ~~remove_usuario.php~~  
    * cria_dominio.php  
    * altera_dominio.php  
    * remove_dominio.php  
