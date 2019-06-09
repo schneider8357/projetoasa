@@ -17,7 +17,7 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
 #### 0. ~~Iniciar o Repositório~~  
 #### 1. ~~Integração FTP e mensagens~~  
 #### 2. CRUD banco ftpusers  
-  * 2.1. - ~~Criar página principal (index.html)~~  
+  * ~~2.1. - Criar página principal (index.html)~~  
     * ~~Link para criar usuário~~  
     * ~~Link para listar usuários~~  
     * ~~Link para criar domínio~~  
