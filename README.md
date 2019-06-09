@@ -34,7 +34,7 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
    * cria_dominio.php  
    * altera_dominio.php  
    * remove_dominio.php  
-3 - Configuração bind e httpd
-4 - Extra
+3 - Configuração bind e httpd  
+4 - Extra  
  * 4.1 - Criação de subpasta adm  
  * 4.2 - Configurar httpd para consultar tabela ftpusers para Auth
