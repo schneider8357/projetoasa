@@ -17,7 +17,11 @@
     <th>E-mail</th>
 </tr>
 <?php
+<<<<<<< HEAD
 include_once 'mod_tabela_usuarios.php';
+=======
+include 'acesso_banco.php';
+>>>>>>> 5114b759109b0a903c9412def6dddda94bcab2dc
 
 foreach (lista() as $row){
     echo "<tr>\n\t";
