@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Lista de Usuários</title>
+    <meta charset='iso-8859-1'>
+</head>
 <body>
 <table>
 <tr>
@@ -13,11 +17,9 @@
     <th>E-mail</th>
 </tr>
 <?php
-define('ROOT_PATH', '/var/www/html/projetoasa');
-include ROOT_PATH . '/php/acesso_banco.php';
+include_once 'mod_tabela_usuarios.php';
 
-$l = lista();
-foreach ($l as $row){
+foreach (lista() as $row){
     echo "<tr>\n\t";
     echo "<td>" . $row['nome'] . "</td>\n\t";
     echo "<td>" . $row['login'] . "</td>\n\t";
@@ -27,19 +29,12 @@ foreach ($l as $row){
     echo "<td>" . $row['dir'] . "</td>\n\t";
     echo "<td>" . $row['shell'] . "</td>\n";
     echo "<td>" . $row['email'] . "</td>\n";
+    echo "<td><a href='altera_usuario_form.php?email=", urlencode($row['email']), "'>Altera</a></td>";
     echo "<td><a href='remove_usuario.php?email=", urlencode($row['email']), "'>Remove</a></td>";
     echo "</tr>\n";
 
 }
 ?>
 </table>
-for ($i=0;$i<count($l);$i++){
-    $row = $l[$i];
-    echo "Nome: " . $row['nome'] . " ";
-    echo "Login: " . $row['login'] . " ";
-    echo "uid: " . $row['uid'] . "<br />";
-}
-?>
-
 </body>
 </html>
