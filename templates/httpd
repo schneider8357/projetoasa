@@ -1,0 +1,25 @@
+<VirtualHost *:80>
+ServerName "www.{{domain}}"
+DocumentRoot "/home/{{domain}}"
+ErrorLog "/home/{{domain}}/error.log"
+CustomLog "/home/{{domain}}/access.log" common
+
+<Directory "/home/{{domain}}">
+Options +Indexes
+Require all granted
+</Directory>
+<Directory "/home/{{domain}}/adm">
+Options +Indexes
+AuthType Basic
+AuthName "My Server"
+
+AuthBasicProvider socache dbd
+
+AuthnCacheProvideFor dbd
+AuthnCacheContext my-server
+
+Require valid-user
+
+AuthDBDUserPWQuery "SELECT senha FROM ftpusers WHERE email = concat(%s,'@{{domain}}')"
+</Directory>
+</VirtualHost>

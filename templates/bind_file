@@ -1,0 +1,11 @@
+$TTL 10
+
+@ IN SOA ns.{{domain}}. postmaster.container24.ifrn.local. (
+2019061300 3H 15M 1W 1D )
+@ A 192.168.102.124
+ns A 192.168.102.124
+@ NS ns
+smtp A 192.168.102.124
+@ IN MX 0 smtp
+www A 192.168.102.124
+ftp A 192.168.102.124

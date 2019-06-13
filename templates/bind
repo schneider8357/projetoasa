@@ -1,0 +1,4 @@
+zone "{{domain}}" {
+type master;
+file "/etc/projetoasa/zone_files/{{domain}}";
+};
