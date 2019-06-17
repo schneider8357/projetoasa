@@ -44,6 +44,6 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
     * ~~Criar diretório do site (e mudar permissões)~~  
     * ~~Inserir nos arquivos de configuração~~  
     * ~~Recarregar apache e bind (exeroot)~~  
-#### 4. Extra  
-  * 4.1. - Criação de subpasta adm  
-  * 4.2. - Configurar httpd para consultar tabela ftpusers para Auth  
+#### ~~4. Extra~~  
+  * ~~4.1. - Criação de subpasta adm~~  
+  * ~~4.2. - Configurar httpd para consultar tabela ftpusers para Auth~~  
