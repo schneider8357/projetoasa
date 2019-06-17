@@ -35,14 +35,15 @@ Neste projeto realizaremos a integração dos servidores virtuais já implementa
     * ~~altera_dominio.php~~  
     * ~~remove_dominio.php~~  
 #### 3. Configuração bind e httpd  
-  * 3.1. - Criar templates de arquivos  
-    * named.conf (zona)  
-    * httpd.conf (VirtualHost e Directory)  
-    * /var/named/<nome_do_dominio> (arquivo de configuração de zona)  
-  * 3.2. - Criar scripts
-    * Inserir os valores nos templates  
-    * Inserir nos arquivos de configuração (exeroot)
-    * Recarregar apache e bind (exeroot)
+  * ~~3.1. - Criar templates de arquivos~~  
+    * ~~named.conf (zona)~~  
+    * ~~httpd.conf (VirtualHost e Directory)~~  
+    * ~~/var/named/<nome_do_dominio> (arquivo de configuração de zona)~~  
+  * ~~3.2. - Criar scripts~~  
+    * ~~Inserir os valores nos templates~~  
+    * ~~Criar diretório do site (e mudar permissões)~~  
+    * ~~Inserir nos arquivos de configuração~~  
+    * ~~Recarregar apache e bind (exeroot)~~  
 #### 4. Extra  
   * 4.1. - Criação de subpasta adm  
-  * 4.2. - Configurar httpd para consultar tabela ftpusers para Auth
+  * 4.2. - Configurar httpd para consultar tabela ftpusers para Auth  

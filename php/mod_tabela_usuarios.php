@@ -33,7 +33,7 @@ if (mysqli_num_rows($res) == 1) {
     $r["uid"] = $row["uid"];
     return $r;
 } else {
-    printf("Algo inesperado ocorreu, tente novamente mais tarde");
+    printf("Algo inesperado ocorreu, tente novamente mais tarde<br/>");
     return;
 }
 }

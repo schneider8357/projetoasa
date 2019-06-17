@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Alterar dados de usuário</h1>
+<h1>Alterar dados de domínio</h1>
 <form action="altera_dominio.php" method="post">
 <?php
 include_once 'mod_tabela_dominios.php';
