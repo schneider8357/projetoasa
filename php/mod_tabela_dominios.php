@@ -22,8 +22,6 @@ function lista_usuarios() {
             $r["domain"] = split('@', $row["email"])[1];
             $array[$i++] = $r;
         }
-    } else {
-        echo "0 results";
     }
     
     return $array;
@@ -41,11 +39,11 @@ foreach ($array as $row)
 exec('rm '.escapeshellarg("/etc/projetoasa/sites/www.$domain"));
 exec('rm '.escapeshellarg("/etc/projetoasa/zones/$domain"));
 exec('rm '.escapeshellarg("/etc/projetoasa/zone_files/$domain"));
-exec('/etc/projetoasa/rndc');
-exec('/etc/projetoasa/apache');
+exec('/etc/projetoasa/rndc &');
+exec('/etc/projetoasa/apache &');
 $arg = escapeshellarg($domain);
 $include = 'include \"/etc/projetoasa/zones/'.$arg.'\";';
-exec("sed -i 's@^$include@//$include@g' /etc/projetoasa/zones.conf");
+exec("sed -ci 's@^$include@//$include@g' /etc/projetoasa/zones.conf");
 exec("rm -rf /home/$arg");
 executa("DELETE FROM domains WHERE domain='$domain'");
 }

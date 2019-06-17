@@ -1,2 +1,2 @@
 #!/bin/bash
-apachectl restart
+apachectl -k graceful

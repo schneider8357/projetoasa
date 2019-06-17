@@ -10,7 +10,7 @@ function configura_zona($domain) {
     $file = str_replace('{{domain}}', $domain, $file);
     $cmd = 'echo '.escapeshellarg($file).' >> /etc/projetoasa/zone_files/'.escapeshellarg($domain);
     exec($cmd);
-    exec('/etc/projetoasa/rndc');
+    exec('/etc/projetoasa/rndc &');
 }
 
 function configura_site($domain) {
@@ -20,6 +20,6 @@ function configura_site($domain) {
     $file = str_replace('{{domain}}', $domain, $file);
     $cmd = 'echo '.escapeshellarg($file).' >> /etc/projetoasa/sites/www.'.escapeshellarg($domain);
     exec($cmd);
-    exec('/etc/projetoasa/apache');
+    exec('/etc/projetoasa/apache &');
 }
 ?>
